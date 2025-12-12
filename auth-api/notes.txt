@@ -1,0 +1,4 @@
+1. bunx prisma migrate dev --name init
+Reads your schema.prisma, creates a migration file, applies it to the database, and keeps your DB schema synced with your Prisma schema.
+2. bunx prisma generate
+Generates the Prisma Client, which provides auto-typed functions to query and interact with your database tables.
